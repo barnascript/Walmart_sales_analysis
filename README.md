@@ -6,6 +6,99 @@ This project aims to explore the Walmart Sales data to understand top performing
 
 "In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." source
 
+<table>
+    <tr>
+        <th>Column</th>
+        <th>Description</th>
+        <th>Data Type</th>
+    </tr>
+    <tr>
+        <td>invoice_id</td>
+        <td>Invoice of the sales made</td>
+        <td>VARCHAR(30)</td>
+    </tr>
+    <tr>
+        <td>branch</td>
+        <td>Branch at which sales were made</td>
+        <td>VARCHAR(5)</td>
+    </tr>
+    <tr>
+        <td>city</td>
+        <td>The location of the branch</td>
+        <td>VARCHAR(30)</td>
+    </tr>
+    <tr>
+        <td>customer_type</td>
+        <td>The type of the customer</td>
+        <td>VARCHAR(30)</td>
+    </tr>
+    <tr>
+        <td>gender</td>
+        <td>Gender of the customer making purchase</td>
+        <td>VARCHAR(10)</td>
+    </tr>
+    <tr>
+        <td>product_line</td>
+        <td>Product line of the product sold</td>
+        <td>VARCHAR(100)</td>
+    </tr>
+    <tr>
+        <td>unit_price</td>
+        <td>The price of each product</td>
+        <td>DECIMAL(10, 2)</td>
+    </tr>
+    <tr>
+        <td>quantity</td>
+        <td>The amount of the product sold</td>
+        <td>INT</td>
+    </tr>
+    <tr>
+        <td>VAT</td>
+        <td>The amount of tax on the purchase</td>
+        <td>FLOAT(6, 4)</td>
+    </tr>
+    <tr>
+        <td>total</td>
+        <td>The total cost of the purchase</td>
+        <td>DECIMAL(10, 2)</td>
+    </tr>
+    <tr>
+        <td>date</td>
+        <td>The date on which the purchase was made</td>
+        <td>DATE</td>
+    </tr>
+    <tr>
+        <td>time</td>
+        <td>The time at which the purchase was made</td>
+        <td>TIMESTAMP</td>
+    </tr>
+    <tr>
+        <td>payment_method</td>
+        <td>The total amount paid</td>
+        <td>DECIMAL(10, 2)</td>
+    </tr>
+    <tr>
+        <td>cogs</td>
+        <td>Cost Of Goods Sold</td>
+        <td>DECIMAL(10, 2)</td>
+    </tr>
+    <tr>
+        <td>gross_margin_percentage</td>
+        <td>Gross margin percentage</td>
+        <td>FLOAT(11, 9)</td>
+    </tr>
+    <tr>
+        <td>gross_income</td>
+        <td>Gross Income</td>
+        <td>DECIMAL(10, 2)</td>
+    </tr>
+    <tr>
+        <td>rating</td>
+        <td>Rating</td>
+        <td>FLOAT(2, 1)</td>
+    </tr>
+</table>
+
 ## Purposes Of The Project
 
 The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
