@@ -195,7 +195,7 @@ time_of_day
 
 ## Code
 
-For the rest of the code, check the  <a href="SQL_queries.sql">SQL_queries.sql<a> file
+For the rest of the code, check the  <a href="./SQL_queries.sql">SQL_queries.sql<a> file
 
 ``` -- Create database
 CREATE DATABASE IF NOT EXISTS WalmartSales;
