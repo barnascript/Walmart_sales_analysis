@@ -38,7 +38,9 @@ This analysis aims to uncover the different customers segments, purchase trends 
 
 
 
-4. Add a new column named time_of_day to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
+4. Add a new column named  <span style="color:grey">
+time_of_day
+</span>to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
 5. Add a new column named day_name that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
 6. Add a new column named month_name that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
    
@@ -119,7 +121,7 @@ CREATE TABLE IF NOT EXISTS sales(
     gross_margin_pct FLOAT(11,9),
     gross_income DECIMAL(12, 4),
     rating FLOAT(2, 1)
-);```
+);
 
 
 
