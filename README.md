@@ -92,3 +92,9 @@ This analysis aims to uncover the different customers segments, purchase trends 
 27. Which day fo the week has the best avg ratings?
 28. Which day of the week has the best average ratings per branch?
 
+
+## Code
+
+For the rest of the code, check the SQL_queries.sql file
+
+
